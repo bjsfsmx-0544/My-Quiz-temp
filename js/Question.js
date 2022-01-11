@@ -2,9 +2,9 @@ class Question {
 
   constructor() {
     this.title = createElement('h1')
-    this.input1 = createInput("Enter Your Name Here....");
-    this.input2 = createInput("Enter Correct Option No..");
-    this.button = createButton('Submit');
+    this.input1 = createInput("Escribe tu nombre aquí...");
+    this.input2 = createInput("Escribe el número de opción...");
+    this.button = createButton('Enviar');
     this.question = createElement('h3');
     this.option1 = createElement('h4');
     this.option2 = createElement('h4');
@@ -22,22 +22,22 @@ class Question {
   }
 
   display(){
-    this.title.html("MyQuiz Game");
+    this.title.html("Juego MiQuiz");
     this.title.position(350, 0);
 
-    // this.question("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
-    // this.html("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
-    //this.question.html("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
-    // question.html("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
+    // this.question("Pregunta : Un señor gordito y muy coloradito, no toma café pues siempre toma té.");
+    // this.html("Pregunta : Un señor gordito y muy coloradito, no toma café pues siempre toma té." );
+    // this.question.html("Pregunta : Un señor gordito y muy coloradito, no toma café pues siempre toma té." );
+    // question.html("Pregunta : Un señor gordito y muy coloradito, no toma café pues siempre toma té." );
 
     this.question.position(150, 80);
-    this.option1.html("1: Everyone " );
+    this.option1.html("1: Tapete" );
     this.option1.position(150, 100);
-    this.option2.html("2: Envelope" );
+    this.option2.html("2: Tomate" );
     this.option2.position(150, 120);
-    this.option3.html("3: Estimate " );
+    this.option3.html("3: Taquero" );
     this.option3.position(150, 140);
-    this.option4.html("4: Example" );
+    this.option4.html("4: Tenedor" );
     this.option4.position(150, 160);
 
     this.input1.position(150, 230);
@@ -46,16 +46,16 @@ class Question {
 
     this.button.mousePressed(()=>{
       
-      // this.message.html("Thank You, Your Answer Has Been Submitted");
+      // this.message.html("Gracias, tu respuesta ha sido entregada.");
       // this.message.position(350, 350);
 
-      // this.message.html("Thank You, Your Answer Has Been Submitted");
+      // this.message.html("Gracias, tu respuesta ha sido entregada.");
       // this.message.position();
 
-      // this.message("Thank You, Your Answer Has Been Submitted");
+      // this.message("Gracias, tu respuesta ha sido entregada.");
       // this.message(350, 350);
 
-      // this.message.html("Thank You, Your Answer Has Been Submitted");
+      // this.message.html("Gracias, tu respuesta ha sido entregada.");
       // this.message.position(350);
 
 
